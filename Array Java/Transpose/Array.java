@@ -23,14 +23,6 @@ class Array
 			}
 		}
 		System.out.println("\n");
-		for (int i=0;i<brr.length;i++)
-		{
-			for (int j=0;j<brr[i].length;j++)
-  			{
-				System.out.print(brr[i][j]+" ");
-			}
-			System.out.println("\n");	
-		}
 		System.out.println("Transpose");
 		for (int i=0;i<col;i++)
 		{
